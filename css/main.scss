@@ -19,15 +19,13 @@ a {
   -moz-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms; }
-
-a:hover {
-  outline: none;
-  text-decoration: none;
-  color: #dab074; }
-
-a:focus {
-  outline: none;
-  outline-offset: 0; }
+  a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #dab074; }
+  a:focus {
+    outline: none;
+    outline-offset: 0; }
 
 ul {
   list-style: none; }
@@ -102,92 +100,75 @@ h3 {
 #header {
   margin-bottom: 0;
   padding: 30px 0 60px 0; }
-
-#header .navbar-inverse .container {
-  position: relative; }
+  #header .navbar-inverse .container {
+    position: relative; }
 
 .social-icons ul li {
   padding: 0 10px; }
-
-.social-icons ul li:last-child {
-  padding-right: 0; }
+  .social-icons ul li:last-child {
+    padding-right: 0; }
 
 .social-icons ul li a {
   font-size: 18px;
   color: #d3d3d3;
   padding: 0; }
-
-.social-icons ul li a:hover, .social-icons ul li a:focus {
-  color: #dbb075;
-  background: none; }
+  .social-icons ul li a:hover, .social-icons ul li a:focus {
+    color: #dbb075;
+    background: none; }
 
 #header .navbar {
   background: #fff;
   border: 0;
   margin-bottom: 0; }
-
 #header .navbar-toggle {
   margin-top: 20px; }
-
 #header .navbar-brand {
   padding: 0;
   margin-left: 0; }
-
-#header .navbar-brand h1, #header .navbar-brand h2 {
-  padding: 0;
-  margin: 0; }
-
+  #header .navbar-brand h1, #header .navbar-brand h2 {
+    padding: 0;
+    margin: 0; }
 #header .navbar-nav.navbar-right > li a  {
   color: #000;
   font-size: 12px;
   padding: 20px;
   text-transform: uppercase;
   font-weight: 300; }
-
 #header .navbar-nav.navbar-right > li:last-child {
   margin-right: 20px; }
-
 #header .navbar-inverse .navbar-nav li a:hover {
   color: #d29948; }
-
 #header .navbar-inverse .navbar-nav li.active > a, #header .navbar-inverse .navbar-nav li.active > a:focus {
   background-color: inherit;
   border: 0;
   color: #d29948; }
-
 #header .navbar-nav li ul.sub-menu {
   display: none;
   list-style: none;
   padding: 0;
   margin: 0; }
-
-#header .navbar-nav li ul.sub-menu li a {
-  color: #818285;
-  padding: 5px 0;
-  font-size: 13px;
-  display: block;
-  text-transform: capitalize; }
-
-#header .navbar-nav li ul.sub-menu li:hover, #header .navbar-nav li ul.sub-menu li:focus {
-  background: #fef7ee;
-  color: #d29948; }
-
-#header .navbar-nav li ul.sub-menu li .active {
-  background: #fef7ee;
-  color: #d29948;
-  position: relative; }
-
-#header .navbar-nav li ul.sub-menu li .active i {
-  position: absolute;
-  font-size: 56px;
-  top: -13px;
-  color: #dab074; }
-
-#header .navbar-nav li ul.sub-menu li .active .fa-angle-right {
-  left: -3px; }
-
-#header .navbar-nav li ul.sub-menu li .active .fa-angle-left {
-  right: -3px; }
+  #header .navbar-nav li ul.sub-menu li a {
+    color: #818285;
+    padding: 5px 0;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize; }
+  #header .navbar-nav li ul.sub-menu li:hover, #header .navbar-nav li ul.sub-menu li:focus {
+    background: #fef7ee;
+    color: #d29948; }
+  #header .navbar-nav li ul.sub-menu li .active {
+    background: #fef7ee;
+    color: #d29948;
+    position: relative; }
+    #header .navbar-nav li ul.sub-menu li .active i {
+      position: absolute;
+      font-size: 56px;
+      top: -13px;
+      color: #dab074; }
+    #header .navbar-nav li ul.sub-menu li .active .fa-angle-right {
+      left: -3px; }
+    #header .navbar-nav li ul.sub-menu li .active .fa-angle-left {
+      right: -3px; }
 
 #header .navbar-inverse .navbar-nav li.active > a,
 #header .navbar-inverse .navbar-nav li.active > a:focus,
@@ -199,106 +180,128 @@ h3 {
 
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
-  position: relative; }
+  position: relative;
+}
 
 #home-slider .main-slider {
   position: relative;
-  height: 450px; }
+  height: 450px;
+}
 
-#home-slider .slide-text {
+#home-slider .slide-text{
   position: absolute;
   top: 50px;
   left: 0;
-  width: 450px; }
+  width: 450px;
+}
 
 #home-slider .slider-house {
   position: absolute;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
 #home-slider .slider-circle1 {
   position: absolute;
   right: 430px;
-  bottom: 210px; }
+  bottom: 210px;
+}
 
 #home-slider .slider-circle2 {
   position: absolute;
   right: 420px;
-  bottom: 245px; }
+  bottom: 245px;
+}
 
 #home-slider .slider-cloud1 {
   position: absolute;
   right: 290px;
-  bottom: 250px; }
+  bottom: 250px;
+}
 
 #home-slider .slider-cloud2 {
   position: absolute;
   right: 375px;
-  bottom: 330px; }
+  bottom: 330px;
+}
 
 #home-slider .slider-cloud3 {
   position: absolute;
   right: 75px;
-  bottom: 300px; }
+  bottom: 300px;
+}
 
 #home-slider .slider-sun {
   position: absolute;
   right: 190px;
-  bottom: 300px; }
+  bottom: 300px;
+}
 
 #home-slider .slider-cycle {
   position: absolute;
   right: 500px;
-  bottom: 0; }
+  bottom: 0;
+}
 
-#home-slider h1 {
+#home-slider h1{
   margin-top: 70px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
 #home-slider .btn-common {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 /****Animaciones****/
 .animate-in .slide-text {
-  -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both;
-  animation: fadeInLeftBig 700ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both; }
+  -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
 
 .animate-in .slider-house {
   -webkit-animation: fadeInDown 700ms ease-in-out 200ms both;
-  animation: fadeInDown 700ms ease-in-out 200ms both; }
+  animation: fadeInDown 700ms ease-in-out 200ms both;
+}
 
 .animate-in .slider-circle1 {
   -webkit-animation: bounceIn 500ms ease-in-out 900ms both;
-  animation: bounceIn 500ms ease-in-out 900ms both; }
+  animation: bounceIn 500ms ease-in-out 900ms both;
+}
 
 .animate-in .slider-circle2 {
   -webkit-animation: bounceIn 500ms ease-in-out 1100ms both;
-  animation: bounceIn 500ms ease-in-out 1100ms both; }
+  animation: bounceIn 500ms ease-in-out 1100ms both;
+}
 
 .animate-in .slider-cloud1 {
   -webkit-animation: bounceIn 500ms ease-in-out 1300ms both;
-  animation: bounceIn 500ms ease-in-out 1300ms both; }
+  animation: bounceIn 500ms ease-in-out 1300ms both;
+}
 
 .animate-in .slider-cloud2 {
   -webkit-animation: bounceIn 500ms ease-in-out 1500ms both;
-  animation: bounceIn 500ms ease-in-out 1500ms both; }
+  animation: bounceIn 500ms ease-in-out 1500ms both;
+}
 
 .animate-in .slider-cloud3 {
   -webkit-animation: bounceIn 500ms ease-in-out 1700ms both;
-  animation: bounceIn 500ms ease-in-out 1700ms both; }
+  animation: bounceIn 500ms ease-in-out 1700ms both;
+}
 
 .animate-in .slider-sun {
   -webkit-animation: bounceIn 800ms ease-in-out 1900ms both;
-  animation: bounceIn 800ms ease-in-out 1900ms both; }
+  animation: bounceIn 800ms ease-in-out 1900ms both;
+}
+.animate-in .slider-cycle {
+  -webkit-animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
 
 .animate-in .slider-cycle {
-  -webkit-animation: slideInLeft 4000ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both;
-  animation: slideInLeft 4000ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both; }
-
-.animate-in .slider-cycle {
-  -webkit-animation: slideInLeft 4000ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both;
-  animation: slideInLeft 4000ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both; }
-
+  -webkit-animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
 /******ACTION******/
 #action {
   background-image: url(../images/home/tour-bg.png);
@@ -308,25 +311,27 @@ h3 {
   background-position: center;
   display: table;
   position: relative;
-  width: 100%; }
+  width: 100%;
+}
 
-.vertical-center {
+.vertical-center{
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  position: statice; }
+  position: statice;
+}
 
 .tour-button {
-  background-image: url(../images/home/tour-icon2.png);
-  height: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  background-position: 151px 4px; }
+    background-image: url(../images/home/tour-icon2.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-position: 151px 4px;
+}
 
 .action .btn-common {
-  margin-top: 55px;
-  float: left; }
-
-/*# sourceMappingURL=main.css.map */
+    margin-top: 55px;
+    float: left;
+}
